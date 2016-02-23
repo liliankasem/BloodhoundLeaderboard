@@ -1,0 +1,64 @@
+﻿body {
+    /*background: url('http://lilian.blob.core.windows.net/microbitquiz/bkground.png') repeat;*/
+    background-color: #435192;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    /* background: url('http://lilian.blob.core.windows.net/microbitquiz/section2Slider1.png') repeat; */
+    background-color: white;
+    width:80%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header {
+  background: url('http://lilian.blob.core.windows.net/bloodhound/bloodhound.jpg') center no-repeat;
+  background-size: 800px 400px;
+  width:100%;
+  height:400px;
+  text-align: center;
+}
+
+.center {
+     margin: auto;
+     width: 60%;
+     border: 3px solid white;
+     padding: 10px;
+ }
+
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size:20px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+
+/* Table */
+
+.tg  {
+    border-collapse:collapse;
+    border-spacing:0;
+    border-color:#999;      
+    margin: auto;
+    width: 70%;
+}
+     
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#444;background-color:#F7FDFA;border-top-width:1px;border-bottom-width:1px;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#999;color:#fff;background-color:#26ADE4;border-top-width:1px;border-bottom-width:1px;}
+.tg .tg-9hbo{font-weight:bold;vertical-align:top}
+.tg .tg-6k2t{background-color:#D2E4FC;vertical-align:top}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mobile Services - LeaderBoard Example</title>
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/site.css">
+        
+        <script src="js/modernizr-2.6.2.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.1.3.min.js"></script>
+    </head>
+    <body>
+        <div class="container body-content">     
+                
+            <!--<div class="header">
+               <a href="index.html"> <h1>Micro:bit Bloodhound Leaderboard Entry Form</h1> </a>
+            </div>          -->
+            
+            <a href="index.html">  <div class="header"></div> </a>
+            
+            <div class="container submit center">        
+                <h2> Entry Form </h2>            
+                <form>
+                    <fieldset class="form-group">
+                        <label for="teamname">Team Name</label>
+                        <input type="text" class="form-control" id="teamname" placeholder="Team Name" required>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="schoolname">School Name</label>
+                        <input type="text" class="form-control" id="schoolname" placeholder="School Name" required> 
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="carspeed">Speed of Car (mph)</label>
+                        <input type="number" class="form-control" id="carspeed" placeholder="Speed of Car (miles per hour)" required>
+                    </fieldset>                   
+                    <fieldset class="form-group">
+                        <label for="timeofrun">Time of Run (s)</label>
+                        <input type="number" class="form-control" id="timeofrun" placeholder="Time of Run (in seconds)" required>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="token">Token</label>
+                        <input type="text" class="form-control" id="token" placeholder="Secret Token" required>
+                        <small class="text-muted">For test purposes, the token is: 9D0UJ0S083JJD82A01SHFUJA03</small>
+                    </fieldset>
+                    
+                    <button type="submit" class="btn btn-primary" style="width:100%;" id="submit">Submit</button>
+                </form>
+            </div>
+
+            <hr />
+            
+            <footer style="color: black; text-align: center;">
+                <p>&copy; 2016 - Microsoft</p>
+            </footer>
+            
+        </div>
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+       <!-- <script src="js/site.js"></script> -->
+    </body>
+</html>
